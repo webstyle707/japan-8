@@ -1,0 +1,22 @@
+.arrow-down {
+    border-left: 53px solid transparent;
+    border-right: 53px solid transparent;
+    border-top: 40px solid #002657; /* Change this to your preferred color */
+  }
+  
+
+
+
+  .scale-animation {
+    animation: scale-down 2.5s ease-in-out infinite;
+}
+
+@keyframes scale-down {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.92);
+    }
+}
+
